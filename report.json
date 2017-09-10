@@ -1,0 +1,74 @@
+{
+  "violation" : [
+    {
+      "class" : "Example",
+      "path" : "\/Users\/user_name\/GitHub\/tylor_example\/example.swift",
+      "value" : 38,
+      "endLine" : 61,
+      "message" : "Class 'Example' has too many lines: 38. The allowed number of lines in a class is 20",
+      "externalInfoUrl" : "http:\/\/phpmd.org\/rules\/codesize.html#excessiveclasslength",
+      "rule" : "ExcessiveClassLength",
+      "priority" : 3,
+      "startLine" : 1
+    },
+    {
+      "class" : "Example",
+      "path" : "\/Users\/user_name\/GitHub\/tylor_example\/example.swift",
+      "value" : 11,
+      "endLine" : 61,
+      "message" : "Class 'Example' has too many methods: 11. The allowed number of methods in class is 10",
+      "externalInfoUrl" : "http:\/\/phpmd.org\/rules\/codesize.html#toomanymethods",
+      "rule" : "TooManyMethods",
+      "priority" : 3,
+      "startLine" : 1
+    },
+    {
+      "class" : "Example",
+      "path" : "\/Users\/user_name\/GitHub\/tylor_example\/example.swift",
+      "method" : "fn2TooManyIf()",
+      "value" : 15,
+      "endLine" : 24,
+      "message" : "Method 'fn2TooManyIf()' has too many lines: 15. The allowed number of lines in a method is 10",
+      "externalInfoUrl" : "http:\/\/phpmd.org\/rules\/codesize.html#excessivemethodlength",
+      "rule" : "ExcessiveMethodLength",
+      "priority" : 3,
+      "startLine" : 8
+    },
+    {
+      "class" : "Example",
+      "path" : "\/Users\/user_name\/GitHub\/tylor_example\/example.swift",
+      "method" : "fn2TooManyIf()",
+      "value" : 6,
+      "endLine" : 24,
+      "message" : "The method 'fn2TooManyIf()' has a Cyclomatic Complexity of 6. The allowed Cyclomatic Complexity is 5",
+      "externalInfoUrl" : "http:\/\/phpmd.org\/rules\/codesize.html#cyclomaticcomplexity",
+      "rule" : "CyclomaticComplexity",
+      "priority" : 2,
+      "startLine" : 8
+    },
+    {
+      "class" : "Example",
+      "path" : "\/Users\/user_name\/GitHub\/tylor_example\/example.swift",
+      "method" : "fn2TooManyIf()",
+      "value" : 5,
+      "endLine" : 24,
+      "message" : "Method 'fn2TooManyIf()' has a block depth of 5. The allowed block depth is 3",
+      "externalInfoUrl" : "http:\/\/docs.oclint.org\/en\/dev\/rules\/size.html#nestedblockdepth",
+      "rule" : "NestedBlockDepth",
+      "priority" : 3,
+      "startLine" : 8
+    },
+    {
+      "class" : "Example",
+      "path" : "\/Users\/user_name\/GitHub\/tylor_example\/example.swift",
+      "method" : "fn3(a:_:_:_:)",
+      "value" : 4,
+      "endLine" : 28,
+      "message" : "Method 'fn3(a:_:_:_:)' has 4 parameters. The allowed number of parameters is 3",
+      "externalInfoUrl" : "http:\/\/phpmd.org\/rules\/codesize.html#excessiveparameterlist",
+      "rule" : "ExcessiveParameterList",
+      "priority" : 3,
+      "startLine" : 26
+    }
+  ]
+}
